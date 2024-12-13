@@ -76,9 +76,40 @@ body{
   display: flex;
   align-items: center;
   background: transparent;
+  color: rgb(222,222,222,1);
   padding: 1.5rem;
   width: 25rem;
   margin: 1rem auto;
   border-radius: .5rem;
   border: 1px solid rgb(98,98,98,1);
+}
+
+.query>img{
+  margin-right: 2rem;
+  object-fit: cover ;
+  height: 1.75rem;
+}
+
+.lowerside{
+  padding: 5rem;
+}
+
+.listItems{
+  margin: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.3rem;
+  gap: 24px; /* spacing between row*/
+}
+
+.listItem {
+  display: flex; /* arranges the image and text horizontally within each listItem. */
+  align-items: center; /* Align logo and text vertically */
+  gap: 12px; /* Spacing between image and text */
+}
+
+.listItemsImage{
+  width: 24px; /* Optional: Adjust image size */
+  height: 24px;
 }

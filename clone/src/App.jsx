@@ -33,18 +33,26 @@ function App() {
             <button className="query">
               <img src={msgIcon} alt="query" className="" /> How to use an API?
             </button>
-
           </div>
         </div>
         <div className="lowerside">
           <div className="listItems">
-            <img src={home} alt="" className="listItemsImage" />Home
-            <img src={saved} alt="" className="listItemsImage" />Saved
-            <img src={rocket} alt="" className="listItemsImage" />Upgrade to Pro
+            <div className="listItem">
+              <img src={home} alt="" className="listItemsImage" />
+              <span>Home</span>
+            </div>  
+
+            <div className="listItem">
+              <img src={saved} alt="" className="listItemsImage" />
+              <span>Saved</span>
+            </div>  
+            
+            <div className="listItem">
+              <img src={rocket} alt="" className="listItemsImage" />
+              <span>Upgrade to Pro</span>
+            </div>  
           </div>
-
         </div>
-
       </div>
 
       <div className="main">
